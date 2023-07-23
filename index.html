@@ -21,31 +21,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Karla:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
-<body style="font-family: Montserrat; font-size: 14px; background-color: hsl(30, 38%, 92%);">
-  <div style="width: 100vw; height: 100vh; display: flex; flex-direction: row; justify-content: center; align-items: center;">
-    <div style="display: grid; grid-template-columns: 1fr 1fr; max-width: 500px; border: none; border-radius: 10px; background-color: hsl(0, 0%, 100%);">
-      <div>
-        <img src="./images/image-product-desktop.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
+<body>
+  <div class="centering-container">
+    <div class="product-card">
+      <div class="product-image-container">
+        <img class="product-image" src="./images/image-product-desktop.jpg" alt="">
       </div>
-      <div style="padding: 25px 25px 30px; display: flex; flex-direction: column;">
-        <h5 style="text-transform: uppercase; letter-spacing: 4px; margin-bottom: 20px; color: hsl(228, 12%, 48%);">Perfume</h5>
+      <div class="product-info-container">
+        <h5 class="product-type-heading">Perfume</h5>
 
-        <h1 style="font-family: Fraunces; line-height: 25px; font-size: 27px; margin-bottom: 24px;">Gabrielle Essence Eau De Parfum</h1>
+        <h1 class="heading">Gabrielle Essence Eau De Parfum</h1>
 
-        <p style="font-size: 12px; line-height: 18px; margin-bottom: 25px; color: hsl(228, 12%, 48%);">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        <p class="product-description-paragraph">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
           Perfumer-Creator for the House of CHANEL.</p>
         
         <div style="display: flex; flex-direction: row; column-gap: 20px; align-items: center; margin-bottom: 25px;">
-          <div style="font-family: Fraunces; font-size: 26px; color:  hsl(158, 36%, 37%);">
+          <div class="current-price">
             $149.99
           </div>
-          <div style="vertical-align: middle; color: hsl(228, 12%, 48%); text-decoration: line-through; font-size: 10px; font-weight: bold;">
+          <div class="original-price">
             $169.99
           </div>
         </div>
         
-        <button style="padding: 12px; border-radius: 5px; background-color: hsl(158, 36%, 37%); border: none; color: white; font-weight: bold; display: flex; flex-direction: row; column-gap: 10px; justify-content: center; align-items: center;">
-          <img src="./images/icon-cart.svg" alt="" style="width: 12px;"> Add to Cart
+        <button class="add-to-cart-button">
+          <img class="cart-icon" src="./images/icon-cart.svg" alt=""> Add to Cart
         </button>
     
       </div>
